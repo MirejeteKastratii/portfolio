@@ -1,0 +1,50 @@
+.hello{
+    font-size: 30px;
+    font-weight: 450;
+}
+.intro{
+    font-size: 20px;
+}
+.about{
+    text-align: center;
+}
+.coverImage{
+    background-image: url("../images/coverImg_about.jpg");
+    background-repeat:no-repeat;
+    box-shadow: inset 2000px 4px 0px rgba(0, 0, 0, 0.7); 
+    background-size: 100% ;
+    height: 700px;
+    text-align: center;
+    color: white;
+}
+.coverImage:hover{
+    box-shadow: inset 2000px 4px 0px rgba(0, 0, 0, 0.4); 
+}
+.name{
+    padding-top:15%;
+    font-size: 50px;
+}
+.profession{
+    font-size: 50px;
+}
+
+img{
+    width: 600px;
+    height: 600px;
+     border: 0px solid black;
+   border-radius: 100%;
+   margin-top: -250px;
+   margin-left: 35%;
+   object-fit: cover;
+}
+.intro{
+    font-size: 25px;
+}
+
+.about{
+    padding: 20px;
+    width: 80%;
+   margin: 0px 10%;
+   font-size: 20px;
+    
+}
