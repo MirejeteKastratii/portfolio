@@ -37,11 +37,7 @@ img{
    margin-left: 35%;
    object-fit: cover;
 }
-img:hover{
-    width: 610px;
-    height: 610px;
-    margin-left: 34git%;
-}
+
 .intro{
     font-size: 25px;
 }
