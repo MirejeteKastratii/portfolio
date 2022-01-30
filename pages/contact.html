@@ -1,14 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
-    <link rel="stylesheet" href="/portfolio/styles/general.css">
-    <link rel="stylesheet" href="/portfolio/styles/contact.css">
+    <link rel="stylesheet" href="../styles/general.css">
+    <link rel="stylesheet" href="../styles/contact.css">
 </head>
+
 <body>
-    
+    <nav>
+        <ul>
+            <li class="emri"><a href="../pages/about.html"> MIRËJETË KASTRATI </a></li>
+            <div class="menu">
+                <li><a href="../pages/about.html">About</a></li>
+                <li><a href="../pages/resume.html">Resume</a></li>
+                <li><a href="../pages/contact.html">Contact</a></li>
+            </div>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="forma">
+            <form action="">
+                <label for="name"> First Name</label>
+                <input type="text" id="name" required>
+                <label for="lastname"> Last Name</label>
+                <input type="text" id="lastname" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" required>
+                <label for="msg">Message</label>
+              <textarea id="msg" cols="30" rows="10"></textarea>
+                <input type="submit" value="Send" id="send">
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div class="emriPersonal">
+            <p>Mirëjetë Kastrati</p>
+            <p>01.09.2001</p>
+        </div>
+        <div class="contact">
+            <p><a href="tel:+38349326024">+38349325024</a></p>
+            <p><a href="mailto:mirejetak@gmail.com">mirejetak@gmail.com</a></p>
+        </div>
+        <div class="socials">
+            <p>LinkedIn</p>
+            <p>Github</p>
+        </div>
+    </footer>
 </body>
+
 </html>

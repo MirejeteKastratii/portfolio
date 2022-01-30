@@ -1,0 +1,77 @@
+.container{
+    width: 100%;
+ height: 100vh;
+margin-top: 5%;
+display: flex;
+align-content: center;
+
+}
+.forma{
+  
+    
+    width: 80%;
+    background-color: rgb(250, 247, 243);
+    margin: 40px 10%;
+    height: fit-content;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 4px rgba(0, 0, 0, 0.25);
+ 
+    
+        
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.forma:hover{
+   
+    background-color:#fff ;
+    border: 2px solid rgb(134, 86, 38);
+    border-radius: 10px;
+}
+.forma:hover>form input{
+    background-color: #fff;
+}
+.forma:hover>form textarea{
+    background-color: #fff;
+}
+label{
+    margin: 10px;
+}
+input, textarea{
+    margin: 10px;
+    border: none;
+    background-color: rgb(250, 247, 243);
+    border-bottom:1px solid black;
+    height: 20px;
+    width: 60%;
+}
+input:focus{
+    padding: 5px;
+   border: 1px solid rgb(202, 172, 143);
+}
+textarea:focus{
+    padding: 5px;
+   border: 1px solid rgb(202, 172, 143);
+}
+#msg{
+    height:40px ;
+}
+#send{
+    width: 20%;
+    height: 30px;
+    background-color:  rgb(202, 172, 143);
+    border-radius: 10px;
+    border: none;
+
+}
+#send:hover{
+    width: 21%;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 500;
+
+}
